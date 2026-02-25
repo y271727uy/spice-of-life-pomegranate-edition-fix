@@ -1,0 +1,77 @@
+{
+	"spice_of_life_pomegranate_edition.tooltip.hearty.not_eaten": "Еще не пробовали! Каково это на вкус?",
+	"spice_of_life_pomegranate_edition.tooltip.hearty.eaten": "Съедено: помогло в добавлении сердец",
+	"spice_of_life_pomegranate_edition.tooltip.cheap.eaten": "Съедено: Нет заметного эффекта",
+	"spice_of_life_pomegranate_edition.tooltip.cheap": "Эта пища недостаточно питательна для улучшения вашего здоровья.",
+	"spice_of_life_pomegranate_edition.tooltip.disabled.blacklist": "Эта еда находится в чёрном списке и не может улучшить ваше здоровье.",
+	"spice_of_life_pomegranate_edition.tooltip.disabled.whitelist": "Этой еды нет в белом списке, поэтому она не может улучшить ваше здоровье.",
+	"spice_of_life_pomegranate_edition.tooltip.disabled.eaten": "Съедено: Нет заметного эффекта",
+
+	"spice_of_life_pomegranate_edition.tooltip.pomegranate.picky.0_5": "Еще довольно вкусно.",
+	"spice_of_life_pomegranate_edition.tooltip.pomegranate.picky.6_9": "Так себе на вкус.",
+	"spice_of_life_pomegranate_edition.tooltip.pomegranate.picky.10_12": "Я больше не хочу это есть!",
+	"spice_of_life_pomegranate_edition.tooltip.pomegranate.picky.13_plus": "Отвратительно.",
+
+	"spice_of_life_pomegranate_edition.command.foodlist.no_permissions": "У вас нет прав, необходимых для применения этой команды к другим игрокам!",
+
+	"spice_of_life_pomegranate_edition.command.foodlist.size.desc.foods_eaten.singular": "Вы съели одну уникальную еду!",
+	"spice_of_life_pomegranate_edition.command.foodlist.size.desc.foods_eaten.plural": "Вы съели %s уникальной еды!",
+	"spice_of_life_pomegranate_edition.command.foodlist.size.desc.milestone.max": "К сожалению, вы больше не можете увеличить здоровье, пробуя новую еду.",
+	"spice_of_life_pomegranate_edition.command.foodlist.size.desc.milestone.more": "Вам нужно ещё %s , чтобы увеличить максимальное колличество здоровья.",
+
+	"spice_of_life_pomegranate_edition.command.foodlist.clear.success": "Список еды сброшен!",
+
+	"spice_of_life_pomegranate_edition.command.foodlist.sync.success": "Список еды синхронизирован!",
+
+	"spice_of_life_pomegranate_edition.message.chat_wrapper": "[SoL: Carrot] %s",
+	"spice_of_life_pomegranate_edition.message.hearts.singular": "сердце",
+	"spice_of_life_pomegranate_edition.message.hearts.plural": "%s сердец",
+	"spice_of_life_pomegranate_edition.message.milestone_achieved": "Какой уникальный вкус! Вы получили %s!",
+	"spice_of_life_pomegranate_edition.message.finished.chat": "Наконец-то ваше желание искать уникальную еду удовлетворено.",
+	"spice_of_life_pomegranate_edition.message.finished.hotbar": "Вы получили %s. Наконец-то ваше желание искать уникальную еду удовлетворено.",
+
+	"spice_of_life_pomegranate_edition.item.food_book": "Книга Еды",
+
+	"spice_of_life_pomegranate_edition.gui.food_book.stats": "Обзор",
+	"spice_of_life_pomegranate_edition.gui.food_book.eaten_foods": "Попробовано: %s",
+	"spice_of_life_pomegranate_edition.gui.food_book.uneaten_foods": "Непопробовано: %s",
+	"spice_of_life_pomegranate_edition.gui.food_book.config": "Настройка",
+
+	"spice_of_life_pomegranate_edition.gui.food_book.fraction": "%1$s/%2$s",
+
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.foods_tasted": "Еды попробовано",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.hearts_gained": "Сердец получено",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.progress": "%s до следующего веха",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.progress.max": "Достигнута максимальная веха!",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.previous_milestone": "Последняя веха: %s",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.next_milestone": "Следующая веха: %s",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.total_foods": "%s Всего еды",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.foods_tasted": "Еды попробовано: %s",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.hearts_per_milestone.singular": "1 сердце за веха",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.hearts_per_milestone.plural": "%s сердца за веха",
+
+	"spice_of_life_pomegranate_edition.gui.food_book.config.minimum_food_value": "Мин. питательность",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.tooltip.minimum_food_value": "Еда с минимальной пищевой ценностью, которой необходимо обеспечить, чтобы засчитывать их в достижении веха.",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.hearty_fraction": "Питательная еда",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.tooltip.hearty_fraction": "Из %1$s продуктов, %2$s достаточно питательны, чтобы увеличить ваш уровень здоровья.",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.eaten_cheap_foods": "Съел бесполезной еды",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.tooltip.eaten_cheap_foods": "Из %1$s продуктов, которые недостаточно питательны, чтобы увеличить ваш уровень здоровья, вы съели %2$s.",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.blacklist": "Еда в чёрном списке",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.whitelist": "Еда в белом списке",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.tooltip.blacklist": "Сколько еды отключено чёрным списком.",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.tooltip.whitelist": "Сколько еды разрешено белым списком.",
+
+	"spice_of_life_pomegranate_edition.config.base_hearts": "Базовые сердца",
+	"spice_of_life_pomegranate_edition.config.hearts_per_milestone": "Сердец за веху",
+	"spice_of_life_pomegranate_edition.config.milestones": "Вехи",
+	"spice_of_life_pomegranate_edition.config.is_food_tooltip_enabled": "Включить подсказку о еде",
+	"spice_of_life_pomegranate_edition.config.should_show_progress_above_hotbar": "Показать прогресс над панелью быстрого доступа",
+	"spice_of_life_pomegranate_edition.config.should_show_uneaten_foods": "Показать еду, которую вы не пробовали",
+	"spice_of_life_pomegranate_edition.config.should_play_milestone_sounds": "Включить звуки вех",
+	"spice_of_life_pomegranate_edition.config.should_spawn_intermediate_particles": "Включить промежуточные частицы",
+	"spice_of_life_pomegranate_edition.config.should_spawn_milestone_particles": "Включить частицы вех",
+	"spice_of_life_pomegranate_edition.config.food_blacklist": "Чёрный список",
+	"spice_of_life_pomegranate_edition.config.food_whitelist": "Белый список (отключает чёрный список)",
+	"spice_of_life_pomegranate_edition.config.minimum_food_value": "Мин. питательность",
+	"spice_of_life_pomegranate_edition.config.reset_on_death": "Сбросить при смерти"
+}

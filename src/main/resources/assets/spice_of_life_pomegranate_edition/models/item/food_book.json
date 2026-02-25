@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "spice_of_life_pomegranate_edition:item/food_book"
+  }
+}
+

@@ -1,29 +1,48 @@
+# 惩罚与奖励  
+**惩罚**  
+每当食用一种食物6次（记作X）之后，饱食与饱腹恢复减少50%  
+每当食用X+1次之后就会让食物恢复变为1（记作Y）     
+当食用Y+1次后恢复将变为0（记作Z） 
+当食用Z+1次将会施加饥饿效果，持续5秒，等级I   
+当食用Z+3次将会施加饥饿，反胃效果，持续10秒，等级II  
+当食用Z+5次将会施加饥饿，反胃，虚弱效果，持续20秒，等级III  
+当食用Z+10次将会施加挖掘疲劳，虚弱效果，持续60秒，等级V  
+当食用Z+20次将会施加反胃效果，持续60秒，等级V  
 
-Installation information
-=======
+挑食：将会根据惩罚部分来进行对tooltip的修改  
+“尝起来不错”：0-5次  
+“尝起来一般”：6-9次  
+“我不想吃这玩意儿了！”：10-12次  
+“令人作呕”：超过12次
+___
+**奖励**    
+每当食用3次不同种类的食物（记作A），将会奖励随机正面效果，5秒，等级I   
+每当食用A+4次不同种类的食物（记作B），将会奖励随机正面效果，10秒，等级II   
+每当食用B+5次不同种类的食物，将会奖励随机正面效果，20秒，等级III        
+每当食用15次不同种类的食物，将会奖励随机正面效果，60秒，等级III
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+___
+**特性**  重要提示：特性这部分内容暂时不需要去做！！
+可能需要标签驱动   
+“超重”：如果玩家吃了太多的主食（10个），玩家会变“超重”继续吃除了蔬菜水果外的任何东西都会被惩罚   
+超重惩罚：增加超重效果，并让玩家活动速度降低。    
+何以解？：吃10个蔬菜/水果（都用forge标签和继承diet的标签）  
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+**重置：**  
+只记录150种已经食用的食物，然后重置。  
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
 
-Mapping Names:
-============
-The MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
 
-MDG Legacy:
-==========
-This template uses [ModDevGradle Legacy](https://github.com/neoforged/ModDevGradle). Documentation can be found [here](https://github.com/neoforged/ModDevGradle/blob/main/LEGACY.md).
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+
+
+
+
+
+
+
+
+
+
+
+参考文献:

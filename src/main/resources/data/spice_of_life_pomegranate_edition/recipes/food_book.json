@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:book" },
+    { "item": "minecraft:carrot" }
+  ],
+  "result": {
+    "item": "spice_of_life_pomegranate_edition:food_book"
+  }
+}
+

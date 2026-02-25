@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "refmap": "spice_of_life_pomegranate_edition.refmap.json",
+  "package": "com.y271727uy.pomegranate.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "PlayerEatMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

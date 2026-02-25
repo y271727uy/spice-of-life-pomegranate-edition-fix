@@ -1,0 +1,77 @@
+{
+	"spice_of_life_pomegranate_edition.tooltip.hearty.not_eaten": "Ikke spist ennå! Hvordan smaker det?",
+	"spice_of_life_pomegranate_edition.tooltip.hearty.eaten": "Spist: Assisterte i å øke helse",
+	"spice_of_life_pomegranate_edition.tooltip.cheap.eaten": "Spist: Ingen merkbar effekt",
+	"spice_of_life_pomegranate_edition.tooltip.cheap": "Denne maten er ikke nærende nok til å forbedre helsen din.",
+	"spice_of_life_pomegranate_edition.tooltip.disabled.blacklist": "Denne maten er på svartelisten og kan derfor ikke forbedre helsen din.",
+	"spice_of_life_pomegranate_edition.tooltip.disabled.whitelist": "Denne maten er ikke på hvitelisten og kan derfor ikke forbedre helsen din.",
+	"spice_of_life_pomegranate_edition.tooltip.disabled.eaten": "Spist: Ingen merkbar effekt",
+
+	"spice_of_life_pomegranate_edition.tooltip.pomegranate.picky.0_5": "Smaker ganske bra.",
+	"spice_of_life_pomegranate_edition.tooltip.pomegranate.picky.6_9": "Smaker så som så.",
+	"spice_of_life_pomegranate_edition.tooltip.pomegranate.picky.10_12": "Jeg vil ikke spise dette lenger!",
+	"spice_of_life_pomegranate_edition.tooltip.pomegranate.picky.13_plus": "Frastøtende.",
+
+	"spice_of_life_pomegranate_edition.command.foodlist.no_permissions": "Du har ikke de nødvendige tillatelsene for å bruke denne kommandoen på andre spillere!",
+
+	"spice_of_life_pomegranate_edition.command.foodlist.size.desc.foods_eaten.singular": "Du har spist en unik matvare!",
+	"spice_of_life_pomegranate_edition.command.foodlist.size.desc.foods_eaten.plural": "Du har spist %s unike matvarer!",
+	"spice_of_life_pomegranate_edition.command.foodlist.size.desc.milestone.max": "Du kan dessverre ikke få mer helse av å prøve ny matvarer.",
+	"spice_of_life_pomegranate_edition.command.foodlist.size.desc.milestone.more": "Du trenger %s mer for å øke din maksimale helse.",
+
+	"spice_of_life_pomegranate_edition.command.foodlist.clear.success": "Matliste tilbakestilt!",
+
+	"spice_of_life_pomegranate_edition.command.foodlist.sync.success": "Matliste synkronisert!",
+
+	"spice_of_life_pomegranate_edition.message.chat_wrapper": "[SoL: Carrot] %s",
+	"spice_of_life_pomegranate_edition.message.hearts.singular": "et hjerte",
+	"spice_of_life_pomegranate_edition.message.hearts.plural": "%s hjerter",
+	"spice_of_life_pomegranate_edition.message.milestone_achieved": "For en unik smak! Du har fått %s!",
+	"spice_of_life_pomegranate_edition.message.finished.chat": "Ditt ønske om å prøve ut unike matvarer er endelig oppfylt.",
+	"spice_of_life_pomegranate_edition.message.finished.hotbar": "Du har fått %s. Ditt ønske om å prøve ut unike matvarer er endelig oppfylt.",
+
+	"spice_of_life_pomegranate_edition.item.food_book": "Matbok",
+
+	"spice_of_life_pomegranate_edition.gui.food_book.stats": "Oversikt",
+	"spice_of_life_pomegranate_edition.gui.food_book.eaten_foods": "Allerede Spist: %s",
+	"spice_of_life_pomegranate_edition.gui.food_book.uneaten_foods": "Ikke Prøvd Ennå: %s",
+	"spice_of_life_pomegranate_edition.gui.food_book.config": "Konfigurering",
+
+	"spice_of_life_pomegranate_edition.gui.food_book.fraction": "%1$s/%2$s",
+
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.foods_tasted": "Matvarer Spist",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.hearts_gained": "Hjerter Tjent",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.progress": "%s matvare(r) til neste milepæl",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.progress.max": "Høyeste milepæl nådd!",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.previous_milestone": "Forrige Milepæl: %s",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.next_milestone": "Neste Milepæl: %s",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.total_foods": "%s Totale Matvarer",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.foods_tasted": "Matvarer Spist: %s",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.hearts_per_milestone.singular": "1 Hjerte per Milepæl",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.hearts_per_milestone.plural": "%s Hjerter per Milepæl",
+
+	"spice_of_life_pomegranate_edition.gui.food_book.config.minimum_food_value": "Minste Næringssverdi",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.tooltip.minimum_food_value": "Den minste næringssverdien en matrett trenger for å regnes med i milepæltellingen.",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.hearty_fraction": "Nærende Matretter",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.tooltip.hearty_fraction": "Av %1$s matretter, er %2$s næringsrike nok til å forbedre din helse.",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.eaten_cheap_foods": "Kjedelige Matretter Spist",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.tooltip.eaten_cheap_foods": "Du har spist %2$s av %1$s matretter som ikke er nærende nok til å øke helsen din.",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.blacklist": "Svartelistede Matretter",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.whitelist": "Hvitelistede Matretter",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.tooltip.blacklist": "Hvor mange matretter som er nektet av svartelisten.",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.tooltip.whitelist": "Hvor mange matretter som er tillatt av hvitelisten.",
+
+	"spice_of_life_pomegranate_edition.config.base_hearts": "Grunnhjerter",
+	"spice_of_life_pomegranate_edition.config.hearts_per_milestone": "Hjerter per milepæl",
+	"spice_of_life_pomegranate_edition.config.milestones": "Milepæler",
+	"spice_of_life_pomegranate_edition.config.is_food_tooltip_enabled": "Aktiver matverktøytips ",
+	"spice_of_life_pomegranate_edition.config.should_show_progress_above_hotbar": "Vis fremgang over hurtigbaren",
+	"spice_of_life_pomegranate_edition.config.should_show_uneaten_foods": "Vis uspiste matretter",
+	"spice_of_life_pomegranate_edition.config.should_play_milestone_sounds": "Aktiver milepællyder",
+	"spice_of_life_pomegranate_edition.config.should_spawn_intermediate_particles": "Aktiver Mellom-milepælspartikler",
+	"spice_of_life_pomegranate_edition.config.should_spawn_milestone_particles": "Aktiver Milepælspartikler",
+	"spice_of_life_pomegranate_edition.config.food_blacklist": "Svarteliste",
+	"spice_of_life_pomegranate_edition.config.food_whitelist": "Hviteliste (slår av svarteliste)",
+	"spice_of_life_pomegranate_edition.config.minimum_food_value": "Minimum næringsverdi",
+	"spice_of_life_pomegranate_edition.config.reset_on_death": "Nullstill ved dødsfall"
+}

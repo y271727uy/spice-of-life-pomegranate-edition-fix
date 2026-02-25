@@ -1,0 +1,77 @@
+{
+	"spice_of_life_pomegranate_edition.tooltip.hearty.not_eaten": "Nog nooit gegeten! Hoe zou 't smaken?",
+	"spice_of_life_pomegranate_edition.tooltip.hearty.eaten": "Gegeten: Bijgedragen aan extra hartjes",
+	"spice_of_life_pomegranate_edition.tooltip.cheap.eaten": "Gegeten: Geen merkbaar effect",
+	"spice_of_life_pomegranate_edition.tooltip.cheap": "Dit gerechtje is niet voedzaam genoeg om je gezondheid te verbeteren.",
+	"spice_of_life_pomegranate_edition.tooltip.disabled.blacklist": "Dit gerecht staat op de blacklist en kan je gezondheid dus niet verbeteren.",
+	"spice_of_life_pomegranate_edition.tooltip.disabled.whitelist": "Dit gerecht staat niet op de whitelist en kan je gezondheid dus niet verbeteren.",
+	"spice_of_life_pomegranate_edition.tooltip.disabled.eaten": "Gegeten: Geen merkbaar effect",
+
+	"spice_of_life_pomegranate_edition.tooltip.pomegranate.picky.0_5": "Nogal lekker.",
+	"spice_of_life_pomegranate_edition.tooltip.pomegranate.picky.6_9": "Redelijk.",
+	"spice_of_life_pomegranate_edition.tooltip.pomegranate.picky.10_12": "Ik wil dit niet meer eten!",
+	"spice_of_life_pomegranate_edition.tooltip.pomegranate.picky.13_plus": "Walgelijk.",
+
+	"spice_of_life_pomegranate_edition.command.foodlist.no_permissions": "Je hebt niet de nodige permissies om dit commando op andere spelers toe te passen!",
+
+	"spice_of_life_pomegranate_edition.command.foodlist.size.desc.foods_eaten.singular": "Je hebt één uniek gerecht gegeten!",
+	"spice_of_life_pomegranate_edition.command.foodlist.size.desc.foods_eaten.plural": "Je hebt %s unieke gerechten gegeten!",
+	"spice_of_life_pomegranate_edition.command.foodlist.size.desc.milestone.max": "Je kan helaas niet nog meer gezondheid krijgen door nieuwe gerechten te eten.",
+	"spice_of_life_pomegranate_edition.command.foodlist.size.desc.milestone.more": "Je hebt nog %s nodig om je maximale gezondheid te verhogen.",
+
+	"spice_of_life_pomegranate_edition.command.foodlist.clear.success": "Gerechtenlijst gereset!",
+
+	"spice_of_life_pomegranate_edition.command.foodlist.sync.success": "Gerechtenlijst gesynchroniseerd!",
+
+	"spice_of_life_pomegranate_edition.message.chat_wrapper": "[SoL: Carrot] %s",
+	"spice_of_life_pomegranate_edition.message.hearts.singular": "een extra hartje",
+	"spice_of_life_pomegranate_edition.message.hearts.plural": "%s extra hartjes",
+	"spice_of_life_pomegranate_edition.message.milestone_achieved": "Wat een unieke smaak! Je hebt %s gekregen!",
+	"spice_of_life_pomegranate_edition.message.finished.chat": "Je lust naar nieuwe gerechten is eindelijk gestild.",
+	"spice_of_life_pomegranate_edition.message.finished.hotbar": "Je hebt %s gekregen. Je lust naar nieuwe gerechten is eindelijk gestild.",
+
+	"spice_of_life_pomegranate_edition.item.food_book": "Gerechtenboek",
+
+	"spice_of_life_pomegranate_edition.gui.food_book.stats": "Overzicht",
+	"spice_of_life_pomegranate_edition.gui.food_book.eaten_foods": "Al geproefd: %s",
+	"spice_of_life_pomegranate_edition.gui.food_book.uneaten_foods": "Nog niet geproefd: %s",
+	"spice_of_life_pomegranate_edition.gui.food_book.config": "Configuratie",
+
+	"spice_of_life_pomegranate_edition.gui.food_book.fraction": "%1$s/%2$s",
+
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.foods_tasted": "Gerechten geproefd",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.hearts_gained": "Hartjes gekregen",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.progress": "Nog %s tot volgende mijlpaal",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.progress.max": "Hoogste mijlpaal bereikt!",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.previous_milestone": "Laatste mijlpaal: %s",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.next_milestone": "Volgende mijlpaal: %s",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.total_foods": "%s gerechten in totaal",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.foods_tasted": "Gerechten geproefd: %s",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.hearts_per_milestone.singular": "Eén hartje per mijlpaal",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.hearts_per_milestone.plural": "%s hartjes per mijlpaal",
+
+	"spice_of_life_pomegranate_edition.gui.food_book.config.minimum_food_value": "Minimum voedingswaarde",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.tooltip.minimum_food_value": "De minimale voedingswaarde die een gerecht moet hebben om tot mijlpalen mee te tellen.",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.hearty_fraction": "Voedzame gerechten",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.tooltip.hearty_fraction": "Van alle %1$s gerechten, zijn %2$s voedzaam genoeg om je gezondheid te verbeteren.",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.eaten_cheap_foods": "Te kleine gerechtjes",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.tooltip.eaten_cheap_foods": "Van de %1$s gerechtjes die niet voedzaam genoeg zijn om je gezondheid te verbeteren, heb je er %2$s gegeten.",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.blacklist": "Gerechten op blacklist",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.whitelist": "Gerechten op whitelist",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.tooltip.blacklist": "Hoeveel gerechten uitgesloten zijn door de blacklist.",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.tooltip.whitelist": "Hoeveel gerechten toegestaan zijn door de whitelist.",
+
+	"spice_of_life_pomegranate_edition.config.base_hearts": "Beginhartjes",
+	"spice_of_life_pomegranate_edition.config.hearts_per_milestone": "Hartjes per mijlpaal",
+	"spice_of_life_pomegranate_edition.config.milestones": "Mijlpalen",
+	"spice_of_life_pomegranate_edition.config.is_food_tooltip_enabled": "Toon tooltip bij eten",
+	"spice_of_life_pomegranate_edition.config.should_show_progress_above_hotbar": "Toon voortgang boven hotbar",
+	"spice_of_life_pomegranate_edition.config.should_show_uneaten_foods": "Toon niet geproefde gerechten",
+	"spice_of_life_pomegranate_edition.config.should_play_milestone_sounds": "Laat geluid horen bij mijlpaal",
+	"spice_of_life_pomegranate_edition.config.should_spawn_intermediate_particles": "Toon partikels tussendoor",
+	"spice_of_life_pomegranate_edition.config.should_spawn_milestone_particles": "Toon partikels bij mijlpalen",
+	"spice_of_life_pomegranate_edition.config.food_blacklist": "Blacklist",
+	"spice_of_life_pomegranate_edition.config.food_whitelist": "Whitelist (gaat boven blacklist)",
+	"spice_of_life_pomegranate_edition.config.minimum_food_value": "Minimum voedingswaarde",
+	"spice_of_life_pomegranate_edition.config.reset_on_death": "Reset bij doodgaan"
+}

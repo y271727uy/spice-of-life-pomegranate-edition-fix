@@ -1,0 +1,76 @@
+{
+	"spice_of_life_pomegranate_edition.tooltip.hearty.not_eaten": "Not yet eaten! What does it taste like?",
+	"spice_of_life_pomegranate_edition.tooltip.hearty.eaten": "Eaten: Assisted in adding hearts",
+	"spice_of_life_pomegranate_edition.tooltip.cheap.eaten": "Eaten: No noticeable effect",
+	"spice_of_life_pomegranate_edition.tooltip.cheap": "This food is not nourishing enough to improve your health.",
+	"spice_of_life_pomegranate_edition.tooltip.disabled.blacklist": "This food is in the blacklist and thus cannot improve your health.",
+	"spice_of_life_pomegranate_edition.tooltip.disabled.whitelist": "This food is not in the whitelist and thus cannot improve your health.",
+	"spice_of_life_pomegranate_edition.tooltip.disabled.eaten": "Eaten: No noticeable effect",
+	"spice_of_life_pomegranate_edition.tooltip.pomegranate.picky.0_5": "Tastes pretty good.",
+	"spice_of_life_pomegranate_edition.tooltip.pomegranate.picky.6_9": "Tastes so-so.",
+	"spice_of_life_pomegranate_edition.tooltip.pomegranate.picky.10_12": "I don't want to eat this anymore!",
+	"spice_of_life_pomegranate_edition.tooltip.pomegranate.picky.13_plus": "Disgusting.",
+
+	"spice_of_life_pomegranate_edition.command.foodlist.no_permissions": "You do not have the permissions necessary to apply this command to other players!",
+
+	"spice_of_life_pomegranate_edition.command.foodlist.size.desc.foods_eaten.singular": "You've eaten one unique food!",
+	"spice_of_life_pomegranate_edition.command.foodlist.size.desc.foods_eaten.plural": "You've eaten %s unique foods!",
+	"spice_of_life_pomegranate_edition.command.foodlist.size.desc.milestone.max": "You sadly cannot gain any more health from trying new foods.",
+	"spice_of_life_pomegranate_edition.command.foodlist.size.desc.milestone.more": "You need %s more to increase your max health.",
+
+	"spice_of_life_pomegranate_edition.command.foodlist.clear.success": "Food list reset!",
+
+	"spice_of_life_pomegranate_edition.command.foodlist.sync.success": "Food list synchronized!",
+
+	"spice_of_life_pomegranate_edition.message.chat_wrapper": "[SoL: Carrot] %s",
+	"spice_of_life_pomegranate_edition.message.hearts.singular": "a heart",
+	"spice_of_life_pomegranate_edition.message.hearts.plural": "%s hearts",
+	"spice_of_life_pomegranate_edition.message.milestone_achieved": "What a unique flavor! You've gained %s!",
+	"spice_of_life_pomegranate_edition.message.finished.chat": "Your desire to seek unique foods is finally satisfied.",
+	"spice_of_life_pomegranate_edition.message.finished.hotbar": "You've gained %s. Your desire to seek unique foods is finally satisfied.",
+
+	"spice_of_life_pomegranate_edition.item.food_book": "Food Book",
+
+	"spice_of_life_pomegranate_edition.gui.food_book.stats": "Overview",
+	"spice_of_life_pomegranate_edition.gui.food_book.eaten_foods": "Already Tasted: %s",
+	"spice_of_life_pomegranate_edition.gui.food_book.uneaten_foods": "Not Yet Tried: %s",
+	"spice_of_life_pomegranate_edition.gui.food_book.config": "Configuration",
+
+	"spice_of_life_pomegranate_edition.gui.food_book.fraction": "%1$s/%2$s",
+
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.foods_tasted": "Foods Tasted",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.hearts_gained": "Hearts Gained",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.progress": "%s More Until Next Milestone",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.progress.max": "Highest Milestone Reached!",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.previous_milestone": "Last Milestone: %s",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.next_milestone": "Next Milestone: %s",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.total_foods": "%s Total Foods",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.foods_tasted": "Foods Tasted: %s",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.hearts_per_milestone.singular": "1 Heart per Milestone",
+	"spice_of_life_pomegranate_edition.gui.food_book.stats.tooltip.hearts_per_milestone.plural": "%s Hearts per Milestone",
+
+	"spice_of_life_pomegranate_edition.gui.food_book.config.minimum_food_value": "Minimum Food Value",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.tooltip.minimum_food_value": "The minimum hunger value foods need to provide in order to count towards milestones.",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.hearty_fraction": "Nourishing Foods",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.tooltip.hearty_fraction": "Out of %1$s foods, %2$s are nourishing enough to improve your health.",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.eaten_cheap_foods": "Boring Foods Tasted",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.tooltip.eaten_cheap_foods": "Out of the %1$s foods that aren't nourishing enough to improve your health, you've eaten %2$s.",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.blacklist": "Foods Blacklisted",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.whitelist": "Foods Whitelisted",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.tooltip.blacklist": "How many foods have been disabled by the blacklist.",
+	"spice_of_life_pomegranate_edition.gui.food_book.config.tooltip.whitelist": "How many foods the whitelist allows.",
+
+	"spice_of_life_pomegranate_edition.config.base_hearts": "Base Hearts",
+	"spice_of_life_pomegranate_edition.config.hearts_per_milestone": "Hearts per Milestone",
+	"spice_of_life_pomegranate_edition.config.milestones": "Milestones",
+	"spice_of_life_pomegranate_edition.config.is_food_tooltip_enabled": "Enable Food Tooltip",
+	"spice_of_life_pomegranate_edition.config.should_show_progress_above_hotbar": "Show Progress Above Hotbar",
+	"spice_of_life_pomegranate_edition.config.should_show_uneaten_foods": "Show Uneaten Foods",
+	"spice_of_life_pomegranate_edition.config.should_play_milestone_sounds": "Enable Milestone Sounds",
+	"spice_of_life_pomegranate_edition.config.should_spawn_intermediate_particles": "Enable Intermediate Particles",
+	"spice_of_life_pomegranate_edition.config.should_spawn_milestone_particles": "Enable Milestone Particles",
+	"spice_of_life_pomegranate_edition.config.food_blacklist": "Blacklist",
+	"spice_of_life_pomegranate_edition.config.food_whitelist": "Whitelist (disables blacklist)",
+	"spice_of_life_pomegranate_edition.config.minimum_food_value": "Minimum Food Value",
+	"spice_of_life_pomegranate_edition.config.reset_on_death": "Reset on Death"
+}

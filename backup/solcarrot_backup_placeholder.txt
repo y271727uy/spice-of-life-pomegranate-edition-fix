@@ -1,0 +1,2 @@
+Backup placeholder for original solcarrot assets/data before migration.
+

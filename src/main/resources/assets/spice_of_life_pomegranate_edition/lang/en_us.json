@@ -1,0 +1,18 @@
+{
+	"spice_of_life_pomegranate_edition.tooltip.hearty.not_eaten": "Not yet eaten! What does it taste like?",
+	"spice_of_life_pomegranate_edition.tooltip.hearty.eaten": "Eaten: Assisted in adding hearts",
+	"spice_of_life_pomegranate_edition.tooltip.cheap.eaten": "Eaten: No noticeable effect",
+	"spice_of_life_pomegranate_edition.tooltip.cheap": "This food is not nourishing enough to improve your health.",
+	"spice_of_life_pomegranate_edition.tooltip.disabled.blacklist": "This food is in the blacklist and thus cannot improve your health.",
+	"spice_of_life_pomegranate_edition.tooltip.disabled.whitelist": "This food is not in the whitelist and thus cannot improve your health.",
+	"spice_of_life_pomegranate_edition.tooltip.disabled.eaten": "Eaten: No noticeable effect",
+	"spice_of_life_pomegranate_edition.tooltip.pomegranate.picky.0_3": "Tastes pretty good.",
+	"spice_of_life_pomegranate_edition.tooltip.pomegranate.picky.4_5": "Tastes so-so.",
+	"spice_of_life_pomegranate_edition.tooltip.pomegranate.picky.6_9": "I don't want to eat this anymore!",
+	"spice_of_life_pomegranate_edition.tooltip.pomegranate.picky.10_plus": "Disgusting.",
+
+	"item.spice_of_life_pomegranate_edition.food_book": "Food Book",
+
+	"config.spice_of_life_pomegranate_edition.base_hearts": "Base Hearts"
+}
+
