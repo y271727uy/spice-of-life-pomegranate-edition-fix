@@ -83,5 +83,6 @@
 	"spice_of_life_pomegranate_edition.config.pomegranate.enable_rewards": "启用奖励机制",
 	"spice_of_life_pomegranate_edition.config.pomegranate.enable_overweight": "启用超重机制",
 	"spice_of_life_pomegranate_edition.config.pomegranate.staple_tags": "主食标签",
-	"spice_of_life_pomegranate_edition.config.pomegranate.produce_tags": "蔬果标签"
+	"spice_of_life_pomegranate_edition.config.pomegranate.produce_tags": "蔬果标签",
+	"item.spice_of_life_pomegranate_edition.food_book": "食物之书"
 }
