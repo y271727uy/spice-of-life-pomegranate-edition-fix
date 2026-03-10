@@ -73,7 +73,7 @@ public final class SOLCarrotConfig {
         try {
             return SERVER.baseHearts.get();
         } catch (IllegalStateException e) {
-            return 10; // sensible default
+				  return 10; // sensible default
         }
     }
 
@@ -81,7 +81,7 @@ public final class SOLCarrotConfig {
         try {
             return SERVER.heartsPerMilestone.get();
         } catch (IllegalStateException e) {
-            return 1;
+	  return 1;
         }
     }
 
@@ -89,7 +89,7 @@ public final class SOLCarrotConfig {
         try {
             return new ArrayList<>(SERVER.milestones.get());
         } catch (IllegalStateException e) {
-            return new ArrayList<>(List.of(15, 30, 45, 60, 75, 90, 105, 120, 135, 150));
+			return new ArrayList<>(List.of(6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96, 102, 108, 114, 120, 126, 132, 138, 144, 150));
         }
     }
 
@@ -161,7 +161,7 @@ public final class SOLCarrotConfig {
 			milestones = builder
 				.translation(localizationPath("milestones"))
 				.comment("A list of numbers of unique foods you need to eat to unlock each milestone, in ascending order. Naturally, adding more milestones lets you earn more hearts.")
-				.defineList("milestones", Lists.newArrayList(15, 30, 45, 60, 75, 90, 105, 120, 135, 150), e -> e instanceof Integer);
+				.defineList("milestones", Lists.newArrayList(6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, 78, 84, 90, 96, 102, 108, 114, 120, 126, 132, 138, 144, 150), e -> e instanceof Integer);
 			
 			builder.pop();
 			builder.push("filtering");
@@ -221,6 +221,10 @@ public final class SOLCarrotConfig {
 	public static boolean shouldShowUneatenFoods() {
 		return CLIENT.shouldShowUneatenFoods.get();
 	}
+
+	public static boolean isSingleRowHeartOverlayEnabled() {
+		return CLIENT.isSingleRowHeartOverlayEnabled.get();
+	}
 	
 	public static class Client {
 		public final BooleanValue shouldPlayMilestoneSounds;
@@ -230,6 +234,7 @@ public final class SOLCarrotConfig {
 		public final BooleanValue isFoodTooltipEnabled;
 		public final BooleanValue shouldShowProgressAboveHotbar;
 		public final BooleanValue shouldShowUneatenFoods;
+		public final BooleanValue isSingleRowHeartOverlayEnabled;
 		
 		Client(Builder builder) {
 			builder.push("milestone celebration");
@@ -266,6 +271,14 @@ public final class SOLCarrotConfig {
 				.translation(localizationPath("should_show_uneaten_foods"))
 				.comment("If true, the food book also lists foods that you haven't eaten, in addition to the ones you have.")
 				.define("shouldShowUneatenFoods", true);
+
+			isSingleRowHeartOverlayEnabled = builder
+				.translation(localizationPath("single_row_heart_overlay_enabled"))
+				.comment(
+					"If true, bonus health above 10 hearts is rendered in a single colored row instead of adding extra heart rows.",
+					"Automatically does nothing when Mantle is installed."
+				)
+				.define("singleRowHeartOverlayEnabled", true);
 			
 			builder.pop();
 		}

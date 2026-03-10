@@ -25,7 +25,7 @@
 
 	"spice_of_life_pomegranate_edition.command.foodlist.sync.success": "食物清单已同步!",
 
-	"spice_of_life_pomegranate_edition.message.chat_wrapper": "[SoL: Carrot] %s",
+	"spice_of_life_pomegranate_edition.message.chat_wrapper": "[SoL: Pomegranate] %s",
 	"spice_of_life_pomegranate_edition.message.hearts.singular": "1颗红心",
 	"spice_of_life_pomegranate_edition.message.hearts.plural": "%s颗红心",
 	"spice_of_life_pomegranate_edition.message.milestone_achieved": "多么独特的味道! 您已经获得了%s!",
@@ -69,6 +69,7 @@
 	"spice_of_life_pomegranate_edition.config.is_food_tooltip_enabled": "启用食物提示",
 	"spice_of_life_pomegranate_edition.config.should_show_progress_above_hotbar": "在工具栏上方显示进度",
 	"spice_of_life_pomegranate_edition.config.should_show_uneaten_foods": "显示未品尝食物",
+	"spice_of_life_pomegranate_edition.config.single_row_heart_overlay_enabled": "启用单排额外红心显示",
 	"spice_of_life_pomegranate_edition.config.should_play_milestone_sounds": "启用里程碑提示音",
 	"spice_of_life_pomegranate_edition.config.should_spawn_intermediate_particles": "启用中间粒子效果",
 	"spice_of_life_pomegranate_edition.config.should_spawn_milestone_particles": "启用里程碑粒子效果",

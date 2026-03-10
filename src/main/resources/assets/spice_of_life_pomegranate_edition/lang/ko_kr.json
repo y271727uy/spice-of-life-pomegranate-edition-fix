@@ -23,7 +23,7 @@
 
 	"spice_of_life_pomegranate_edition.command.foodlist.sync.success": "음식 목록 동기화!",
 
-	"spice_of_life_pomegranate_edition.message.chat_wrapper": "[SoL: Carrot] %s",
+	"spice_of_life_pomegranate_edition.message.chat_wrapper": "[SoL: Pomegranate] %s",
 	"spice_of_life_pomegranate_edition.message.hearts.singular": "체력 1 칸",
 	"spice_of_life_pomegranate_edition.message.hearts.plural": "체력 %s 칸",
 	"spice_of_life_pomegranate_edition.message.milestone_achieved": "독특한 맛인데요! %s을 얻었습니다!",
